@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina na MS 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('pictures/WC background.png') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            color: white;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 60, 114, 0.75);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(12px);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            border: 1px solid rgba(255, 215, 0, 0.35);
+            padding: 12px 22px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        .back-link:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 215, 0, 0.28);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #ffd700;
+        }
+
+        .images-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .images-row img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .images-row img:nth-child(2) {
+            object-position: center 20%;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: #ffd700;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .section p,
+        .section li {
+            line-height: 1.75;
+            font-size: 1rem;
+            color: #f5f5f5;
+        }
+
+        .section ul {
+            margin-top: 12px;
+            margin-left: 20px;
+            list-style: disc;
+        }
+
+        .table-box {
+            overflow-x: auto;
+            margin-top: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        th {
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        tbody tr:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .table-caption {
+            margin-top: 12px;
+            font-size: 0.98rem;
+            color: #d8d8d8;
+        }
+
+        @media (max-width: 800px) {
+            .card {
+                padding: 22px;
+            }
+
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            .section h2 {
+                font-size: 1.7rem;
+            }
+
+            th, td {
+                padding: 12px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <a class="back-link" href="index.html">← Zpět na hlavní stránku</a>
+            <header>
+                <h1>Argentina na mistrovství světa 2026</h1>
+                <p>Obhájce titulu a jedna z největších favoritů</p>
+            </header>
+
+            <div class="images-row">
+                <img src="https://images.openai.com/static-rsc-4/aTMUghJvqnUoIj2XRN-A4S8KFxEn4F-b2d_pufwB4AyRA3yRTN6cqQ68yLE_G8ehsE1wFqRiWgl21IFxkwgMlzSvh5KEHo_Rg7bEpfKSU80o9iYZuwcSqWiixrClqet5521_WKCczT2_4JAo7RU2WpbxwwdZam0KRFEULb2HhwVWFkLbW7Va86ybYjagMVXn?purpose=inline" alt="Argentina team image">
+                <img src="https://images.openai.com/static-rsc-4/2BF48ZRQmmnmoBOHllq0KJqqQyf2yvy6Xycdl1Z5L_U7yGi94uOokpFJpOEtfEuLHzzWqi2CW7cCCZ-714AGopKf3Pi4gOVPoIj2zRUHqQhSf5KwYSrRbW6D3u68hDpITUzWueGpoHEMGdQJbzdPUnXAH2Bjj_cBpofg56bCQ0GiuIRFmUBUE0Fkm_xALiKA?purpose=inline" alt="Argentina match image">
+                <img src="https://images.openai.com/static-rsc-4/uFfSAzbNAaA_jIiMseMNS_wmKOZ92i-1TsO5o-8-vECyRgeGmectx6uPCs4iGOtMvd5CIPolPIqKX7EnbPF1QkgnT0MwSAuJWyLKUcw7o2eIrpnk7xQfmz24SLqTqqS9DMRcEivElybIHZ3jAs0B9frJvv1f3rfVGby8OI2ChyU?purpose=inline" alt="Argentina stadium image">
+            </div>
+
+            <div class="section">
+                <p><strong>Argentina</strong> patří mezi největší favority mistrovství světa 2026. Do turnaje vstupuje jako úřadující mistr světa po triumfu na šampionátu v Kataru v roce 2022. Tým vede trenér Lionel Scaloni a opět se opírá o zkušené hvězdy i mladé talenty.</p>
+            </div>
+
+            <div class="section">
+                <h2>Základní informace</h2>
+                <ul>
+                    <li>Přezdívka: <strong>La Albiceleste</strong> („Bílo-modří“)</li>
+                    <li>Trenér: Lionel Scaloni</li>
+                    <li>Kapitán: Lionel Messi</li>
+                    <li>Počet titulů mistra světa: <strong>3</strong> (1978, 1986, 2022)</li>
+                    <li>Na MS 2026 obhajuje titul mistrů světa.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Kvalifikace</h2>
+                <p>Argentina si zajistila postup z jihoamerické kvalifikace už v březnu 2025 a stala se prvním jihoamerickým týmem, který se na šampionát kvalifikoval. Během kvalifikace předváděla velmi stabilní výkony a držela se na čele tabulky.</p>
+            </div>
+
+            <div class="section">
+                <h2>Skupina na MS 2026</h2>
+                <p>Argentina byla zařazena do <strong>skupiny J</strong>, kde ji čekají:</p>
+                <ul>
+                    <li>Alžírsko</li>
+                    <li>Rakousko</li>
+                    <li>Jordánsko</li>
+                </ul>
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Skupina</th>
+                                <th>Tým</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>J</td>
+                                <td>Argentina</td>
+                            </tr>
+                            <tr>
+                                <td>J</td>
+                                <td>Alžírsko</td>
+                            </tr>
+                            <tr>
+                                <td>J</td>
+                                <td>Rakousko</td>
+                            </tr>
+                            <tr>
+                                <td>J</td>
+                                <td>Jordánsko</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-caption">Skupina J je považována za jednu z atraktivních skupin na MS 2026.</p>
+            </div>
+
+            <div class="section">
+                <h2>Největší hvězdy týmu</h2>
+                <ul>
+                    <li>Lionel Messi – legenda světového fotbalu, pro kterou může být MS 2026 posledním mistrovstvím světa.</li>
+                    <li>Emiliano Martínez – jeden z nejlepších brankářů světa.</li>
+                    <li>Lautaro Martínez – útočník a hlavní střelec týmu.</li>
+                    <li>Enzo Fernández – klíčový záložník.</li>
+                    <li>Alexis Mac Allister – tvůrce hry ve středu pole.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Zajímavosti</h2>
+                <ul>
+                    <li>Pro Messiho jde o rekordní <strong>šesté mistrovství světa</strong>.</li>
+                    <li>Argentina se účastní světového šampionátu již po devatenácté.</li>
+                    <li>Mnozí odborníci ji řadí mezi hlavní kandidáty na zisk titulu společně s Francií, Španělskem a Brazílií.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Krátký referát</h2>
+                <p>Argentina je jedním z nejúspěšnějších fotbalových států na světě. Na mistrovství světa 2026 přijíždí jako obhájce titulu z roku 2022. Tým vedený Lionelem Scalonim kombinuje zkušené hráče v čele s Lionelem Messim a mladé talenty. Díky silnému kádru patří Argentina mezi největší favority turnaje a bude usilovat o svůj čtvrtý titul mistrů světa.</p>
+            </div>
+
+            <div class="section">
+                <h2>Program zápasů</h2>
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fáze</th>
+                                <th>Soupeř</th>
+                                <th>Datum / Místo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Skupina</td>
+                                <td>Alžírsko</td>
+                                <td>Datum a místo budou upřesněny</td>
+                            </tr>
+                            <tr>
+                                <td>Skupina</td>
+                                <td>Rakousko</td>
+                                <td>Datum a místo budou upřesněny</td>
+                            </tr>
+                            <tr>
+                                <td>Skupina</td>
+                                <td>Jordánsko</td>
+                                <td>Datum a místo budou upřesněny</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-caption"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

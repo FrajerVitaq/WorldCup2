@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS 2026 Portugalsko</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('pictures/WC background.png') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            color: white;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 60, 114, 0.75);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(12px);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #ffd700;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            border: 1px solid rgba(255, 215, 0, 0.35);
+            padding: 12px 22px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        .back-link:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 215, 0, 0.28);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 14px;
+            object-fit: cover;
+            min-height: 170px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: #ffd700;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .section p,
+        .section li {
+            line-height: 1.75;
+            font-size: 1rem;
+            color: #f5f5f5;
+        }
+
+        .section ul {
+            margin-top: 12px;
+            margin-left: 20px;
+            list-style: disc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        th {
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        tbody tr:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .table-caption {
+            margin-top: 15px;
+            font-size: 0.98rem;
+            color: #d8d8d8;
+        }
+
+        @media (max-width: 800px) {
+            .card {
+                padding: 22px;
+            }
+
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            .section h2 {
+                font-size: 1.7rem;
+            }
+
+            th, td {
+                padding: 12px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <a class="back-link" href="index.html">← Zpět na hlavní stránku</a>
+
+            <header>
+                <h1>Portugalsko na mistrovství světa 2026</h1>
+                <p>Silný tým s jedním z nejlepších kádru na turnaji</p>
+            </header>
+
+            <div class="gallery">
+                <img src="https://images.openai.com/static-rsc-4/e5uaixc0CmXDVQpiZ_Uw12y8Zg60J33NrFdGMbkWNehKt5YrlrIXgtNxpJ9q-yQG_ZAgUyzXXIo4-p7DfuSVs02dbXNkttHg9A9Hu7ekrxNzSczgQ2pavTpAG6-cxxXoaRAogVhFeaumoU_od82r1uINjP05CDdPl66lcuzVz4hKMikXrbiFfasoYRaWcbN2?purpose=inline" alt="Portugal football 1">
+                <img src="https://images.openai.com/static-rsc-4/j-ZaVD857pSzA20VCA5FLGiw2J36-Y05IXlkB1pjMBDPTb1y1uKh0SdJ-Z6M0jV_eVs5gWRKuoyRt0UDgK45XVYTvC-xONDVkfvCNyNYi8jGKeKdbGxVrKXSXiRynEMxKSmckI7RRlFVx_Ggahtn-NDeGG3wYa1qC5IlBh71dWXPvMSqxUnZQGXy4oNtcjET?purpose=inline" alt="Portugal football 2">
+                <img src="https://images.openai.com/static-rsc-4/vrnPwZJIDNfihIDuhI09S73rlrHgOWIV2hYERt1beKGFv6gOeBpU2grkN5cnVzN-bJP7JVh5P4L5Oe_x3RTv70gfdzVMprdxnf3kwymEMElyFb1vkjI1DWNJueOWde-0kbhwkwNFeaFdrVjt6pGRasCQ2wLWr0KRUdy87qsJZO9KiDHzNEYPF37hwQdI8mzR?purpose=inline" alt="Portugal football 3">
+            </div>
+
+            <div class="section">
+                <p><strong>Portugalsko</strong> patří mezi hlavní favority mistrovství světa 2026. Tým vede španělský trenér Roberto Martínez a disponuje jedním z nejsilnějších kádrů na turnaji. Největší pozornost poutá legenda světového fotbalu Cristiano Ronaldo, který nastupuje již na svém šestém mistrovství světa.</p>
+            </div>
+
+            <div class="section">
+                <h2>Základní informace</h2>
+                <ul>
+                    <li>Trenér: Roberto Martínez</li>
+                    <li>Kapitán: Cristiano Ronaldo</li>
+                    <li>Počet účastí na MS: 9</li>
+                    <li>Nejlepší výsledek: 3. místo (1966)</li>
+                    <li>Aktuální cíl: získat první titul mistra světa.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Kvalifikace</h2>
+                <p>Portugalsko si zajistilo účast na MS 2026 po silných výsledcích v evropské kvalifikaci. Tým potvrdil, že patří mezi největší evropské favority, a kvalifikaci zvládl s řadou důležitých vítězství.</p>
+            </div>
+
+            <div class="section">
+                <h2>Skupina na MS 2026</h2>
+                <p>Portugalsko bylo zařazeno do <strong>skupiny K</strong>, kde se utká s:</p>
+                <ul>
+                    <li>Uzbekistán</li>
+                    <li>Demokratická republika Kongo</li>
+                    <li>další tým bude upřesněn</li>
+                </ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skupina</th>
+                            <th>Tým</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>K</td>
+                            <td>Portugalsko</td>
+                        </tr>
+                        <tr>
+                            <td>K</td>
+                            <td>Uzbekistán</td>
+                        </tr>
+                        <tr>
+                            <td>K</td>
+                            <td>Demokratická republika Kongo</td>
+                        </tr>
+                        <tr>
+                            <td>K</td>
+                            <td>Čtvrtý tým (TBD)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="table-caption">Skupina K zatím zůstává otevřená; Portugalsko je jasným favoritem.</p>
+            </div>
+
+            <div class="section">
+                <h2>Největší hvězdy týmu</h2>
+                <ul>
+                    <li>Cristiano Ronaldo – nejlepší střelec v historii mezinárodního fotbalu.</li>
+                    <li>Bruno Fernandes – kreativní záložník a vůdce středu pole.</li>
+                    <li>Bernardo Silva – technicky výborný záložník.</li>
+                    <li>Vitinha – jeden z nejlepších mladých záložníků světa.</li>
+                    <li>Rúben Dias – opora obrany.</li>
+                    <li>Rafael Leão – rychlý a nebezpečný útočník.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Program zápasů</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Datum</th>
+                            <th>Zápas</th>
+                            <th>Místo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Čas bude upřesněn</td>
+                            <td>Portugalsko – Uzbekistán</td>
+                            <td>stadión TBD</td>
+                        </tr>
+                        <tr>
+                            <td>Čas bude upřesněn</td>
+                            <td>Portugalsko – Demokratická republika Kongo</td>
+                            <td>stadión TBD</td>
+                        </tr>
+                        <tr>
+                            <td>Čas bude upřesněn</td>
+                            <td>Portugalsko – Čtvrtý tým (TBD)</td>
+                            <td>stadión TBD</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>Souhrn</h2>
+                <p>Portugalsko je mezi největšími favority MS 2026. Díky silnému týmu, vedenému Roberto Martínezem, a klíčovým hráčům jako Cristiano Ronaldo, Bruno Fernandes či Bernardo Silva má vysoké ambice získat první titul mistra světa.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

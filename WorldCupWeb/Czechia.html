@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Česká republika na MS 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('pictures/WC background.png') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+            color: white;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(30, 60, 114, 0.75);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(12px);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 25px;
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            border: 1px solid rgba(255, 215, 0, 0.35);
+            padding: 12px 22px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        .back-link:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 215, 0, 0.28);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #ffd700;
+        }
+
+        .images-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .images-row img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .images-row img:nth-child(2) {
+            object-position: center 20%;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: #ffd700;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+        }
+
+        .section p,
+        .section li {
+            line-height: 1.75;
+            font-size: 1rem;
+            color: #f5f5f5;
+        }
+
+        .section ul {
+            margin-top: 12px;
+            margin-left: 20px;
+            list-style: disc;
+        }
+
+        .table-box {
+            overflow-x: auto;
+            margin-top: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        th {
+            background: rgba(255, 215, 0, 0.18);
+            color: #fff;
+            font-weight: 700;
+        }
+
+        tbody tr:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .table-caption {
+            margin-top: 12px;
+            font-size: 0.98rem;
+            color: #d8d8d8;
+        }
+
+        @media (max-width: 800px) {
+            .card {
+                padding: 22px;
+            }
+
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            .section h2 {
+                font-size: 1.7rem;
+            }
+
+            th, td {
+                padding: 12px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <a class="back-link" href="index.html">← Zpět na hlavní stránku</a>
+            <header>
+                <h1>Česká republika na mistrovství světa 2026</h1>
+            </header>
+
+            <div class="images-row">
+                <img src="https://images.openai.com/static-rsc-4/b6dMAoEiGt3ED-tFrILZJdmcpGKCwFTY4H0EiWnZ9zmHPaJePyddxjsXz6XbCtCK0Kr9nWvH1prmgQ06rSRM2p9pvzNDlGumJ3tHx4-KMvaur0x8qhQ1qeLmeZI1iVqw9QYsYZlGlkD_10tfGv4XeFusj8wRyYFB3sFsZ4FoKcFIPOtHSrTuDg8JUvMhfPsY?purpose=inline" alt="Česká republika na MS 2026">
+                <img src="https://images.openai.com/static-rsc-4/ElfnAfqg0m52_jYwAvT3j6Cm9Ko3tF4q37FW5iN0GXEWUhVcU0ajfHFnBGRLZxNDmUPumyYVTOfGRZCTKQWrIjbF-ret36nmsGvolPRYDFJjoLSEFRs4L85WKgmontOF86ac02FVIeg1VT3RQ4Coo_8Oi9wkUn_SnIhM8lSIk3KKw3ifOQUsH5FA3HEarvta?purpose=inline" alt="Český tým na tréninku">
+                <img src="https://images.openai.com/static-rsc-4/Hcp37-5UBKqo8Jve6sZF7ypxCZOgF5gBt0OMRCVcCseq8mixIJ1Oe5rbOD8j746-iWYfJqiAnYoQJWjwWSa7M7Q55gbJ4gIzF1VNol82D_Gz6aQAaA1gdWg0L6IvuaMtDPnhI5J-ukfgw5vb-C4GT6VvytpuS_KkK_GJmF8czCZJ7udI2ABAe2sE691tYDkE?purpose=inline" alt="Český stadion">
+            </div>
+
+            <div class="section">
+                <p><strong>Česká republika</strong> se na mistrovství světa 2026 vrací po dvaceti letech. Naposledy si zahrála na světovém šampionátu v roce 2006 v Německu. Účast na turnaji představuje významný úspěch českého fotbalu a velkou příležitost ukázat se mezi nejlepšími týmy světa.</p>
+            </div>
+
+            <div class="section">
+                <h2>Základní informace</h2>
+                <ul>
+                    <li>Přezdívka: <strong>Národní tým</strong></li>
+                    <li>Trenér: Ivan Hašek</li>
+                    <li>Kapitán: Tomáš Souček</li>
+                    <li>Počet účastí na MS jako samostatná Česká republika: <strong>2</strong> (2006 a 2026)</li>
+                    <li>Nejlepší výsledek: účast ve skupinové fázi (2006)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Skupina České republiky</h2>
+                <p>Česko bylo zařazeno do skupiny A spolu s:</p>
+                <ul>
+                    <li>Mexiko</li>
+                    <li>Jižní Korea</li>
+                    <li>Jihoafrická republika</li>
+                </ul>
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Skupina</th>
+                                <th>Tým</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>A</td>
+                                <td>Česká republika</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>Mexiko</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>Jižní Korea</td>
+                            </tr>
+                            <tr>
+                                <td>A</td>
+                                <td>Jihoafrická republika</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-caption">Skupina A je plná kvalitních soupeřů a zajímavých zápasů.</p>
+            </div>
+
+            <div class="section">
+                <h2>Program Česka ve skupině</h2>
+                <div class="table-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Datum (český čas)</th>
+                                <th>Zápas</th>
+                                <th>Místo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>12. června 2026, 4:00</td>
+                                <td>Jižní Korea – Česko</td>
+                                <td>Guadalajara</td>
+                            </tr>
+                            <tr>
+                                <td>18. června 2026, 18:00</td>
+                                <td>Česko – Jihoafrická republika</td>
+                                <td>Atlanta</td>
+                            </tr>
+                            <tr>
+                                <td>25. června 2026, 3:00</td>
+                                <td>Česko – Mexiko</td>
+                                <td>Mexico City</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="table-caption">Rozpis skupinových zápasů českého týmu na MS 2026.</p>
+            </div>
+
+            <div class="section">
+                <h2>Cesta na šampionát</h2>
+                <p>Český tým prošel evropskou kvalifikací a následně uspěl v baráži, díky čemuž si zajistil účast na světovém šampionátu po dvaceti letech.</p>
+            </div>
+
+            <div class="section">
+                <h2>Zajímavosti</h2>
+                <ul>
+                    <li>Česko se na mistrovství světa kvalifikovalo poprvé od roku 2006.</li>
+                    <li>MS 2026 je prvním světovým šampionátem se 48 účastníky.</li>
+                    <li>Turnaj pořádají tři země: Spojené státy americké, Kanada a Mexiko.</li>
+                    <li>Ze skupiny postoupí první dva týmy a také část nejlepších týmů ze třetích míst.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Krátký referát</h2>
+                <p>Česká republika se na mistrovství světa 2026 vrací po dlouhých dvaceti letech. Tým vedený trenérem Ivanem Haškem a kapitánem Tomášem Součkem bude chtít navázat na úspěchy českého fotbalu a postoupit ze základní skupiny. Mezi největší hvězdy patří Patrik Schick, Adam Hložek a Vladimír Coufal. Na turnaji se Česko utká s Mexikem, Jižní Koreou a Jihoafrickou republikou. Cílem reprezentace je předvést kvalitní výkony a bojovat o postup do vyřazovací části turnaje.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
